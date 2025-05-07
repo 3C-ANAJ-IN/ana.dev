@@ -72,12 +72,13 @@
 
     p {
         margin: 0 0 50px 0;
+        text-align: justify;
     }
 
     #exit {
         height: 40px;
         position: absolute;
-        top: 80px;
+        top: 60px;
         right: 80px;
     }
 
@@ -132,7 +133,7 @@ p {
 }
 
 .square1 {
-    background-color: var(--cor-verde-escura);
+    background-color: var(--cor-amarela-escura);
     height: 25px;
     width: 25px;
     margin: 10px 5px;
@@ -419,34 +420,6 @@ p {
         margin: 0 auto;
     }
 
-    .color {
-        display: flex;
-        margin: auto 0;
-        height: 30px;
-        width: 30px;
-        border-radius: 10px;
-    }
-
-    .color #id1 {
-        background-color: var(--cor-amarela-escura);
-    }
-
-    .color #id2 {
-        background-color: var(--cor-roxa-escura);
-    }
-
-    .color #id3 {
-        background-color: var(--cor-azul-escura);
-    }
-
-    .color #id4 {
-        background-color: var(--cor-rosa-escura);
-    }
-
-    .color #id5 {
-        background-color: var(--cor-verde-escura);
-    }
-
     .fileira1,
     .fileira2,
     .fileira3,
@@ -457,6 +430,33 @@ p {
 }
 
 
+.color {
+    display: flex;
+    margin: auto 0;
+    border-radius: 10px;
+    height: 30px;
+    width: 30px;
+}
+
+#id1 {
+    background-color: var(--cor-amarela-escura);
+}
+
+#id2 {
+    background-color: var(--cor-roxa-escura);
+}
+
+#id3 {
+    background-color: var(--cor-azul-escura);
+}
+
+#id4 {
+    background-color: var(--cor-rosa-escura);
+}
+
+#id5 {
+    background-color: var(--cor-verde-escura);
+}
 
 
 
@@ -546,7 +546,7 @@ p {
 
 
     .projetos {
-        padding: 0 100px;
+        margin: 0 220px;
     }
 
     .projeto {
@@ -786,5 +786,11 @@ input[type="search"]::-webkit-search-decoration,
 input[type="search"]::-webkit-search-cancel-button,
 input[type="search"]::-webkit-search-results-button,
 input[type="search"]::-webkit-search-results-decoration {
+    display: none;
+}
+results-decoration {
+    display: none;
+}
+n {
     display: none;
 }
