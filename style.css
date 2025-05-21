@@ -669,12 +669,11 @@ p {
 
 
 .secao8 {
-    padding: 0;
     margin: 0;
 
     .itens {
         display: flex;
-
+            padding: 0 0 0 300px;
 
     }
 
@@ -685,21 +684,24 @@ p {
     }
 
     #p1 {
-        background-color: var(--cor-verde-escura);
-    }
+        background-color: none;
+        border: var(--cor-azul-escura) solid 2px; 
+    border-style: dotted;}
 
     #p2 {
-        background-color: var(--cor-vermelha-escura);
+        border: var(--cor-azul-escura) 2px solid;
     }
 
     #p3 {
-        background-color: var(--cor-amarela-escura);
-    }
+        background-color: var(--cor-azul-escura);}
 
 
     .legenda {
+        right: 0;
+        z-index: 888;
         margin: 70px;
         padding: 30px;
+        background-color: var(--cor-bege);
         height: fit-content;
         border: var(--cor-preta) solid 2px;
         border-radius: 10px;
@@ -721,7 +723,12 @@ p {
     }
 }
 
-
+.secao8 h2 {
+    font-family: var(--fonte-cursiva);
+    font-size: 45px;
+text-align:center;
+margin: 0;
+padding: 20px;}
 
 /*ANIMAÇÕES*/
 .passo {
