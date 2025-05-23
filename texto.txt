@@ -1,0 +1,109 @@
+
+    <div class="popup" id="popup1">
+        <span class="close" onclick="closePopup('popup1')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup2">
+        <span class="close" onclick="closePopup('popup2')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup3">
+        <span class="close" onclick="closePopup('popup3')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup4">
+        <span class="close" onclick="closePopup('popup4')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup5">
+        <span class="close" onclick="closePopup('popup5')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup6">
+        <span class="close" onclick="closePopup('popup6')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup7">
+        <span class="close" onclick="closePopup('popup7')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup8">
+        <span class="close" onclick="closePopup('popup8')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup9">
+        <span class="close" onclick="closePopup('popup9')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="passo" id="passo-1">
+        <div class="texto">
+            <h2>AUTORIA MARGINAL</h2><br>
+            <p>Narrativas que exploram a vivência e reflexões de minorias com temas que abordam a exclusão
+                social, autênticidade, preconceito e o amor. Livros que quebram barreiras</p><BR><BR>
+            <p><b>ACOMPANHE LILI PELO UNIVERSO DA LITERATURA MARGINAL</b></p>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
+
+</html>span class="close" onclick="closePopup('popup2')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>
+
+    <div class="popup" id="popup3">
+        <span class="close" onclick="closePopup('popup3')"><img id="exit" src="icones/exit.png"></span>
+       <div class="texto"> <h2>onhb</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim at minus perferendis natus laboriosam neque
+            sint, amet mollitia porro sequi ullam pariatur iusto recusandae? Enim culpa suscipit tenetur architecto
+            laboriosam.</p></div>
+    </div>

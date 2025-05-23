@@ -2,23 +2,38 @@
 
 document.querySelectorAll('.btn-proximo').forEach(button => {
     button.addEventListener('click', function () {
-        const nextStep = this.getAttribute('data-proximo');
-        showStep(nextStep);
+        const projectNumber = this.closest('.projeto').querySelector('span').textContent;
+        switch (projectNumber) {
+            case '1':
+                window.location.href = 'ansiedade.html';
+                break;
+            case '2':
+                window.location.href = 'tudo-sobre-baleias.html';
+                break;
+            case '3':
+                window.location.href = 'the-dash-of-us.html';
+                break;
+            case '4':
+                window.location.href = 'stray-kids-streaming.html';
+                break;
+            case '5':
+                window.location.href = 'assinatura-stayplus.html';
+                break;
+            case '6':
+                window.location.href = 'livraria-digital.html';
+                break;
+            default:
+                console.log('No page defined for this project');
+        }
     });
 });
-function showStep(step) {
-    const allSteps = document.querySelectorAll('.passo');
-    allSteps.forEach(passo => passo.classList.remove('ativo'));
-    const currentPasso = document.getElementById('passo-' + step);
-    currentPasso.classList.add('ativo');
-}
 
 
 // Função para abrir o popup
 function openPopup(popupId) {
     const popup = document.getElementById(popupId);
     const pageContent = document.getElementById('page-content');
-    
+
     popup.style.display = 'block';
 
     // Fechar o popup clicando fora dele
@@ -33,7 +48,7 @@ function openPopup(popupId) {
 function closePopup(popupId) {
     const popup = document.getElementById(popupId);
     const pageContent = document.getElementById('page-content');
-    
+
     popup.style.display = 'none';
 }
 
