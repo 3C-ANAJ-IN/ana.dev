@@ -43,6 +43,7 @@
 
 
 
+/*como centralizar a pagina toda sem display flex?*/
 
 
 
@@ -105,7 +106,6 @@
 body,
 html {
     margin: 0;
-    padding: 0 0 50px 0;
     cursor: var(--cursor-auto);
     font-family: var(--fonte-base);
     user-select: none;
@@ -121,7 +121,11 @@ p {
     line-height: 1.5;
 }
 
-
+a {
+    text-decoration: none;
+    color: var(--cor-preta);
+    cursor: var(--cursor-pointer);
+}
 
 
 
@@ -671,6 +675,7 @@ p {
 
 .secao8 {
     margin: 0;
+    padding: 20px 20px 100px 0;
 
     .itens {
         display: flex;
@@ -731,8 +736,88 @@ p {
     font-size: 45px;
     text-align: center;
     margin: 0;
-    padding: 20px;
 }
+
+
+
+
+
+
+
+
+.secao9 {
+    background-color: var(--cor-rosa-pastel);
+    padding: 20px 100px;
+
+    img {
+        height: 200px;
+        margin: 0 30px 0 0;
+        filter: invert(55%) sepia(30%) saturate(4486%) hue-rotate(306deg) brightness(102%) contrast(101%);
+    }
+
+    h2 {
+        font-size: 40px;
+    }
+
+    #SECAO9H2 {
+        color: var(--cor-rosa-escura);
+        text-align: center;
+        font-size: 50px;
+
+        span {
+            border-bottom: dotted 3px;
+        }
+
+    }
+
+
+    .explorarsecao {
+        color: var(--cor-verde-escura);
+        margin: 0 80px;
+    }
+
+    .conversarsecao {
+        span {
+            font-size: 60px;
+            font-weight: 900;
+        }
+
+        h2 {
+            color: var(--cor-azul-escura);
+        }
+
+        #text {
+            background-color: transparent;
+            padding: 10px 20px;
+            width: 300px;
+            border: solid var(--cor-azul-escura) 2px;
+        }
+
+        #button {
+            border: solid var(--cor-azul-escura) 2px;
+            background-color: transparent;
+        }
+         #button:hover {
+            cursor: var(--cursor-pointer);
+        }
+    }
+
+    .container {
+        display: flex;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
