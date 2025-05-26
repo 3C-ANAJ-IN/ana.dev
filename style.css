@@ -1105,13 +1105,14 @@ a {
 }
 
 *::-webkit-scrollbar-thumb {
-    background-color: var(--cor-azul-escura);
+    background-color: var(--cor-bege);
+    border: solid 1px var(--cor-preta);
     border-radius: 40px;
     size: 20px;
 }
 
 *::-webkit-scrollbar-thumb:hover {
-    background-color: var(--cor-roxa-escura);
+    background-color: var(--cor-preta);
 }
 
 *::-webkit-scrollbar {
