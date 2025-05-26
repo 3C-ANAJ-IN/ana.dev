@@ -542,10 +542,10 @@ a {
 
 .secao5 {
     display: flex;
-    padding: 100px 0;
+    padding: 100px 0 0 0;
 
     .esquerda {
-        background-color: var(--cor-amarela-escura);
+        background-color: none;
         border-radius: 20px;
         height: 500px;
         width: 600px;
@@ -554,15 +554,78 @@ a {
     }
 
     .direita {
-        background-color: var(--cor-rosa-escura);
+        background-color: none;
         border-radius: 20px;
-        height: 500px;
         width: 600px;
         padding: 30px;
-        margin: 50px 80px 50px 0;
+        margin: 140px 80px 50px 0;
+    }
+
+    .container {
+        background: #f9f8f3;
+        border-radius: 20px;
+        padding: 2.5rem 1rem 0 1rem;
+        width: 350px;
+        position: relative;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        overflow: hidden;
+    }
+
+    input[type="radio"] {
+        display: none;
+    }
+
+    .tabs {
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 0.5rem 0;
+        z-index: 2;
+    }
+
+    .tabs label {
+        cursor: pointer;
+        padding: 0.5rem 0.8rem;
+        background: #e5e2d5;
+        border-radius: 10px 10px 0 0;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: 0.3s;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+        color: #333;
+    }
+
+    #home:checked~.tabs label[for="home"],
+    #pq:checked~.tabs label[for="pq"],
+    #como:checked~.tabs label[for="como"],
+    #passos:checked~.tabs label[for="passos"] {
+        background: #fac0d9;
+        font-weight: 600;
+        color: var(--cor-branca);
+    }
+
+    .content {
+        text-align: center;
+        padding: 3rem;
+        background: #fdfcf9;
+        border-radius: 20px;
+        z-index: 1;
+    }
+
+    .content>div {
+        display: none;
+    }
+
+    #home:checked~.content .home,
+    #pq:checked~.content .pq,
+    #como:checked~.content .como,
+    #passos:checked~.content .passos {
+        display: block;
     }
 }
-
 
 
 
@@ -711,6 +774,10 @@ a {
         transform: rotateY(180deg);
     }
 
+    img {
+        height: 200px;
+    }
+
     .flip {
         background-color: var(--cor-bege);
         border-radius: 20px;
@@ -765,7 +832,7 @@ a {
 
     .itens {
         display: flex;
-        padding: 0 0 0 300px;
+        padding: 0 0 0 450px;
         position: relative;
     }
 
@@ -821,7 +888,8 @@ a {
     display: none;
 }
 
-.botao-legenda-vertical:hover, .toggle-legenda:hover {
+.botao-legenda-vertical:hover,
+.toggle-legenda:hover {
     cursor: var(--cursor-pointer);
 }
 
