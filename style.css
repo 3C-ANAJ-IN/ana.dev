@@ -326,7 +326,7 @@ a {
 
 
 .secao3 {
-    background-color: var(--cor-roxa-pastel);
+    background-color: var(--cor-bege);
     border-radius: 10px;
     margin: 50px;
     padding: 50px 80PX;
@@ -349,6 +349,8 @@ a {
 
     h1 {
         font-size: 40px;
+                text-transform: lowercase;
+
     }
 
     #h1 {
@@ -558,7 +560,7 @@ a {
         border-radius: 20px;
         width: 600px;
         padding: 30px;
-        margin: 140px 80px 50px 0;
+        margin: 70px 80px 50px 0;
     }
 
     .container {
@@ -569,6 +571,11 @@ a {
         position: relative;
         box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
         overflow: hidden;
+
+        .descricao {
+            font-size: 12px;
+            text-align: justify;
+        }
     }
 
     input[type="radio"] {
@@ -587,7 +594,7 @@ a {
     }
 
     .tabs label {
-        cursor: pointer;
+        cursor: var(--cursor-pointer);
         padding: 0.5rem 0.8rem;
         background: #e5e2d5;
         border-radius: 10px 10px 0 0;
@@ -774,10 +781,6 @@ a {
         transform: rotateY(180deg);
     }
 
-    img {
-        height: 200px;
-    }
-
     .flip {
         background-color: var(--cor-bege);
         border-radius: 20px;
@@ -801,13 +804,29 @@ a {
 
     .tras {
         transform: rotateY(180deg);
+        display: flex;
     }
 
     .frente {
-        background-color: var(--azul-escuro);
+        background-color: var(--cor-bege);
         z-index: 2;
     }
 
+    #frenteimg {
+        height: 280px;
+        margin: 25px auto;
+    }
+
+    #versoimg {
+        height: 200px;
+        margin: 50px 0;
+    }
+
+    .conteudo {
+        padding: 80px 50px; p {
+            text-align: left;
+        }
+    }
 }
 
 
@@ -819,20 +838,21 @@ a {
 
 
 #clock {
-    height: 400px;
+    height: 300px;
     position: absolute;
     left: -150px;
-    margin: 80px 0 100px 0;
+    margin: 60px 0 100px 0;
     z-index: 8;
     background-color: var(--cor-bege);
 }
 
 .secao8 {
     margin: 20px 20px 100px 0;
+    padding: 100px 0;
 
     .itens {
         display: flex;
-        padding: 0 0 0 450px;
+        padding: 0 0 0 300px;
         position: relative;
     }
 
@@ -846,15 +866,14 @@ a {
         background-color: var(--cor-bege);
         border: var(--cor-azul-escura) solid 2px;
         border-style: dotted;
+        text-align: center;
     }
 
-    #p2 {
-        background-color: var(--cor-bege);
-        border: var(--cor-azul-escura) 1px solid;
-    }
 
     #p3 {
         background-color: var(--cor-azul-escura);
+        color: var(--cor-branca);
+        text-align: center;
     }
 
 
@@ -876,7 +895,7 @@ a {
 
 #capstitu {
     font-family: var(--fonte-cursiva);
-    font-size: 45px;
+    font-size: 65px;
     text-align: center;
     margin: 30px 0;
     font-weight: 300;
@@ -962,16 +981,10 @@ a {
 
     }
 
-
-    .explorarsecao {
-        color: var(--cor-verde-escura);
-        margin: -10px 80px 0 300px;
-    }
-
     .conversarsecao {
-        width: 400px;
+        width: 500px;
         text-align: justify;
-        margin: 0 0 0 100px;
+        margin: 0 0 0 300px;
 
         span {
             font-size: 30px;
@@ -987,7 +1000,7 @@ a {
         #text {
             background-color: transparent;
             padding: 10px 20px;
-            width: 300px;
+            width: 400px;
             border: solid var(--cor-azul-escura) 2px;
         }
 
