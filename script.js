@@ -1,4 +1,7 @@
-// Função para abrir o popup
+//ANA JÚLIA RIBEIRO FERREIRA 3C - 27.05.25
+
+
+//Função para abrir o popup
 function openPopup(popupId) {
     const popup = document.getElementById(popupId);
     const pageContent = document.getElementById('page-content');
